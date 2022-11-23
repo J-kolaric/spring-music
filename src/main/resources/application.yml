@@ -41,11 +41,6 @@ spring:
   config:
     activate:
       on-profile: postgres
-  datasource:
-    url: "jdbc:postgresql://my-postgresql/music"
-    driver-class-name: org.postgresql.Driver
-    username: "postgres"
-    password: ${POSTGRES_PASSWORD}
   jpa:
     properties:
       hibernate:
