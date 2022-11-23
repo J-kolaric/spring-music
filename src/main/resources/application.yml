@@ -44,8 +44,8 @@ spring:
   datasource:
     url: "jdbc:postgresql://my-postgresql/music"
     driver-class-name: org.postgresql.Driver
-    username: ${username}
-    password: ${password}
+    username: ${USERNAME}
+    password: ${PASSWORD}
   jpa:
     properties:
       hibernate:
