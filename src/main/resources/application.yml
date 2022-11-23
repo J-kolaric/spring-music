@@ -44,7 +44,7 @@ spring:
   datasource:
     url: "jdbc:postgresql://my-postgresql/${POSTGRES_DB}"
     driver-class-name: org.postgresql.Driver
-    username: "postgres"
+    username: ${POSTGRES_USER:postgres}
     password: ${POSTGRES_PASSWORD}
   jpa:
     properties:
