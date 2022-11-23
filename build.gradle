@@ -27,11 +27,11 @@ dependencies {
     implementation "io.pivotal.cfenv:java-cfenv-boot:${javaCfEnvVersion}"
 
     // JPA Persistence
-    runtimeOnly "org.apache.commons:commons-pool2"
-    runtimeOnly "com.h2database:h2"
-    runtimeOnly "mysql:mysql-connector-java"
+    //runtimeOnly "org.apache.commons:commons-pool2"
+    //runtimeOnly "com.h2database:h2"
+    //runtimeOnly "mysql:mysql-connector-java"
     runtimeOnly "org.postgresql:postgresql"
-    runtimeOnly "com.microsoft.sqlserver:mssql-jdbc"
+    //runtimeOnly "com.microsoft.sqlserver:mssql-jdbc"
 
     // uncomment to use Lettuce instead of Jedis for Redis connections
     // runtime "io.lettuce:lettuce-core"
