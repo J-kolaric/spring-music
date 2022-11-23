@@ -42,9 +42,9 @@ spring:
     activate:
       on-profile: postgres
   datasource:
-    url: "jdbc:postgresql://my-postgresql/${POSTGRES_DB}"
+    url: "jdbc:postgresql://my-postgresql/music"
     driver-class-name: org.postgresql.Driver
-    username: ${POSTGRES_USER:postgres}
+    username: "postgres"
     password: ${POSTGRES_PASSWORD}
   jpa:
     properties:
