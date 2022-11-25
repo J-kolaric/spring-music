@@ -1,3 +1,6 @@
+spring.cloud.bindings.boot.enable: true
+org.springframework.cloud.bindings.boot.enable: true
+
 spring:
   jpa:
     generate-ddl: true
